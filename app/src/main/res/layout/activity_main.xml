@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/_e2c05fcb59059544fda34cfee05c8ca" />
 
     <TextView
-        android:id="@+id/NKoreaScoreTb"
+        android:id="@+id/NKoreaScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.288" />
 
     <TextView
-        android:id="@+id/brazilScoreTb"
+        android:id="@+id/brazilScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
