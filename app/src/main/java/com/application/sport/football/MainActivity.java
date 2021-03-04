@@ -1,11 +1,11 @@
 package com.application.sport.football;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     Button scoreReset;
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         brazilScoreView = findViewById(R.id.brazilScore);
         NKoreaScoreView = findViewById(R.id.NKoreaScore);
+
 
         View.OnClickListener oScoreReset = v -> {
             brazilScoreView.setText("0");

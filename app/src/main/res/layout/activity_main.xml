@@ -11,7 +11,7 @@
         android:layout_width="166dp"
         android:layout_height="71dp"
         android:text="@string/scoreReset"
-        app:backgroundTint="#555455"
+        app:backgroundTint="?attr/buttonStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -41,7 +41,8 @@
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.114"
-        app:srcCompat="@drawable/_e2c05fcb59059544fda34cfee05c8ca" />
+        app:srcCompat="@drawable/_e2c05fcb59059544fda34cfee05c8ca"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/NKoreaScore"
@@ -86,7 +87,7 @@
         android:layout_width="124dp"
         android:layout_height="72dp"
         android:text="@string/northKoreaCountry"
-        app:backgroundTint="#555455"
+        app:backgroundTint="?attr/buttonStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
@@ -99,7 +100,8 @@
         android:layout_width="124dp"
         android:layout_height="72dp"
         android:text="@string/brazilCountry"
-        app:backgroundTint="#555455"
+        app:backgroundTint="?attr/buttonStyle"
+        app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.93"
