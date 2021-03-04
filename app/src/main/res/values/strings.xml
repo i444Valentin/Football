@@ -1,0 +1,5 @@
+<resources>
+    <string name="scoreReset">Обнулить счет</string>
+    <string name="brazilCountry">Бразилия</string>
+    <string name="northKoreaCountry">Северная Корея</string>
+</resources>
