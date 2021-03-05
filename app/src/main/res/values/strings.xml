@@ -2,4 +2,5 @@
     <string name="scoreReset">Обнулить счет</string>
     <string name="brazilCountry">Бразилия</string>
     <string name="northKoreaCountry">Северная Корея</string>
+    <string name="label">Футбольное табло</string>
 </resources>
